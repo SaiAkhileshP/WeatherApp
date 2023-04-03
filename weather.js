@@ -9,7 +9,7 @@ const showlocation = document.getElementById("location");
 
 
 async function getresponse(city){
-        let api = "1cb2c8087cd03d2e1480f8bb9b67ad44";
+        let api = "YOUR_APIKEY";
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api}`;
 
 try {
